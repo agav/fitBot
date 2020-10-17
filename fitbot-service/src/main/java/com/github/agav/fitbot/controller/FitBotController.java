@@ -1,4 +1,4 @@
-package ua.com.agav.fitbot.mvc;
+package com.github.agav.fitbot.controller;
 
 
 import lombok.AllArgsConstructor;

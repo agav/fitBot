@@ -1,4 +1,4 @@
-package ua.com.agav.fitbot;
+package com.github.agav.fitbot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
