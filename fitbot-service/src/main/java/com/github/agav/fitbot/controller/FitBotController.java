@@ -14,13 +14,13 @@ import org.springframework.web.bind.annotation.RestController;
 import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 
 @RestController
-@RequestMapping(consumes = APPLICATION_JSON_VALUE, produces = APPLICATION_JSON_VALUE)
+@RequestMapping(produces = APPLICATION_JSON_VALUE)
 @AllArgsConstructor
 public class FitBotController {
 
     private final FitBotService service;
 
-    @GetMapping("hello")
+    @GetMapping("/hello")
     public String echo(@RequestParam("user") String user) {
         return "hello " + user;
     }
